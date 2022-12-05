@@ -236,6 +236,26 @@ a:hover {
     margin-left: 75px;
 }
 
+/* section footer */
+.footer {
+    background: #4C574C;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.desc-footer {
+    font-size: 25px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.desc-footer2 {
+    margin-top: 17px;
+}
+.connection-footer {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+
 
 
 

@@ -44,8 +44,14 @@ a:hover {
     border-radius: 20px;
     color: #A85463;
 }
+.button--secondary {
+    background: #98B198;
+    border: 1px solid #768976;
+    border-radius: 20px;
+}
 .title {
     font-size: 50px;
+    line-height: 56px;
     font-weight: bold;
     display: flex;
     justify-content: center
@@ -55,6 +61,11 @@ a:hover {
     background: #98B198;
     border: 1px solid #768976;
     color: #fff;
+}
+.button--secondary:hover {
+    background: #FFFFFF;
+    border: 1px solid #768976;
+    color: #A85463;
 }
 
 /* section header */
@@ -98,7 +109,7 @@ a:hover {
     font-weight: bold;
 }
 
-/* popular */
+/* section popular */
 .popular {
     padding-bottom: 100px;
 }
@@ -116,7 +127,31 @@ a:hover {
     border-radius: 20px;
     margin-bottom: 50px;
 }
-
+/* section free */
+.free {
+    padding-bottom: 100px;
+}
+.free-container {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.title-free {
+    padding-top: 35px;
+    padding-bottom: 52px;
+    font-size: 40px;
+    line-height: 45px;
+}
+.free-buttons {
+    display: flex;
+    max-width: 350px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.button-free {
+    margin-bottom: 25px;
+}
 
 
 

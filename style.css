@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: #222822;
 }
+/* hover */
 a:hover {
     color: #A85463;
 }
@@ -43,15 +44,60 @@ a:hover {
     border-radius: 20px;
     color: #A85463;
 }
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+/* hover */
 .button--primary:hover {
     background: #98B198;
     border: 1px solid #768976;
     color: #fff;
 }
+
 /* section header */
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .logo-header {
     cursor: pointer;
 }
 .header-nav__item {
     margin-right: 40px;
 }
+
+/* section promo */
+.promo {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+.promo-container {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.promo-desc {
+    margin-left: 50px;
+}
+.promo-img {
+    margin-right: 10px;
+}
+.discount-promo {
+    display: flex;
+    margin-top: 40px;
+}
+.span-promo {
+    color: #BE6E7D;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.text-promo {
+    color: #768976;
+    font-weight: bold;
+}
+
+
+
+
+
+

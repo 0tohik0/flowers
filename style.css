@@ -47,6 +47,8 @@ a:hover {
 .title {
     font-size: 50px;
     font-weight: bold;
+    display: flex;
+    justify-content: center
 }
 /* hover */
 .button--primary:hover {
@@ -96,7 +98,24 @@ a:hover {
     font-weight: bold;
 }
 
-
+/* popular */
+.popular {
+    padding-bottom: 100px;
+}
+.popular-cards {
+    margin-top: 107px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.popular-card {
+    width: 300px;
+    height: 350px;
+    background: #cbefcb;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
 
 
 

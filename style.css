@@ -56,6 +56,9 @@ a:hover {
     display: flex;
     justify-content: center
 }
+.title-white {
+    color: #F5F5F5;
+}
 /* hover */
 .button--primary:hover {
     background: #98B198;
@@ -153,5 +156,29 @@ a:hover {
     margin-bottom: 25px;
 }
 
-
+/* section compositions */
+.compositions {
+    padding-top: 85px;
+    padding-bottom: 80px;
+    background: #A3B0A3;
+}
+.compositions-title {
+    margin-bottom: 114px;
+}
+.compositions-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.compositions-card {
+    width: 478px;
+    height: 350px;
+    background: #DCEFDC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
 
